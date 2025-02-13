@@ -41,6 +41,7 @@ Ce projet vise à concevoir un système IoT industriel simplifié pour la survei
 - **Déploiement** :
   - Conversion du modèle en code C avec **MATLAB Coder**.
   - Intégration du modèle dans le firmware STM32 pour une détection d'anomalies embarquée.
+<img src="Project resources/Predective maintenance.png">
 
 ### 3. Communication IoT via ESP32
 - **Workflow** :
