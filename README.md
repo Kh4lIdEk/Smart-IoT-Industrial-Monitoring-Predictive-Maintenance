@@ -16,6 +16,7 @@ Ce projet vise à concevoir un système IoT industriel simplifié pour la survei
 - **Capteurs** :
   - **DHT11** : Capteur de température et humidité (bas coût, basse fréquence).
   - **MPU6050** : Capteur de vibrations et accélération (haute fréquence).
+  - **Caméra** : Capteur visuel pour observations de phénomènes.
 - **Microcontrôleurs** :
   - **STM32** : Pour l'acquisition des données et l'exécution du modèle ML.
   - **ESP32** : Pour la communication Wi-Fi et l'envoi des données vers le cloud.
