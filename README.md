@@ -86,15 +86,6 @@ The system consists of multiple components working together to monitor and predi
 - The processed data and failure predictions are displayed on a web interface, which is hosted on the Raspberry Pi.
 - The user can monitor real-time data, receive alerts for potential failures, and visualize trends.
 
-## Communication Protocols
-
-- **Serial Communication (STM32 to ESP32)**: The STM32 communicates with the ESP32 using a serial protocol like UART or SPI. The STM32 sends sensor data in real-time, which is then forwarded by the ESP32.
-  
-- **Wi-Fi Communication (ESP32 to Raspberry Pi)**: The ESP32 uses Wi-Fi to transmit sensor data to the Raspberry Pi. Common communication protocols for this step include:
-  - **MQTT**: A lightweight messaging protocol used for IoT devices.
-  - **HTTP**: The Raspberry Pi can host a simple web server to receive data from the ESP32.
-  - **WebSocket**: For real-time communication between the ESP32 and Raspberry Pi.
-
 ## Machine Learning Model
 
 The machine learning model is implemented on the Raspberry Pi to predict failures based on sensor data. The model is trained using historical data and works by identifying patterns that precede failures in the industrial arm. 
