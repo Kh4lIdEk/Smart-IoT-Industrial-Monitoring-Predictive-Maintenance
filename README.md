@@ -12,7 +12,6 @@ This repository contains a project for Smart IoT Industrial Monitoring and Predi
 - [System Architecture](#system-architecture)
 - [Components Used](#components-used)
 - [System Workflow](#system-workflow)
-- [Communication Protocols](#communication-protocols)
 - [Machine Learning Model](#machine-learning-model)
 - [Visualizing Data](#visualizing-data)
 
